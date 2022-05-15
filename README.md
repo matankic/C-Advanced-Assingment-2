@@ -1,5 +1,7 @@
 # C-Advanced-Assingment-2
-Collage assingment No.2 in C; matrices and linked lists
+Hello there!</br>
+Note that you have to edit only the returned student ID.</br>
+You might consider make some changes before submitting these files in order to avoid disqualification due to copying content (i.e renaming variables, reordering the code, adding and removing lines and comments).</br>
+The author of this repository, Matan, takes no responsibility for all possible consequences. You might also star this repository.
 
-Hello there! note that you have to edit only the returned student ID.\n
-You might consider to change a bit these files in order to avoid disqualification (i.e renaming variables, reordering the code, adding and removing lines and comments)
+Thanks!
