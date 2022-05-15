@@ -234,5 +234,6 @@ void freeDynamic(list** lst, four** arr)
 		cur = cur->next;
 		free(prev);
 	}
+	*lst = NULL;
 }
 // --------------------------- //

@@ -249,11 +249,12 @@ int splitList(list** lst, list** new)
 void freeList(list** lst)
 {
 	// your code:
-	list * prev;
-	while (*lst){
-		prev = *lst;
-		*lst = (*lst)->next;
-		free(prev);
+	list * cur = *lst, *temp;
+	while (cur){
+		temp = cur;
+		cur = cur->next;
+		free(temp);
 	}
+	* lst = NULL;
 }
 // --------------------------- //
