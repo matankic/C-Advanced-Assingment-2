@@ -211,7 +211,7 @@ void quickSortList(list** lst)
 		while (cur->next)
 			cur = cur->next;
 		cur->next = pivot;
-		cur->next->next = big; // could be NULL
+		cur->next->next = big; // could be NULL 
 	}
 	else{
 		*lst = pivot;
