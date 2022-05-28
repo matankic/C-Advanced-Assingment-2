@@ -155,6 +155,8 @@ int compareCircleLists(list** lst1, list** lst2)
 	int n1 = circleListLength(*lst1), n2 = circleListLength(*lst2);
 	list * cur1 = *lst1, * cur2 = *lst2;
 	if (n1 == n2){
+		if(!n1) // both lists are empty edge case
+			return 1;
 		for (i = 0; i < n1; i++){
 			if (cur1->data == cur2->data)
 				break;
